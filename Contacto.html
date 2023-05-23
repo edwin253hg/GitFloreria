@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Contactos Florerías Gaby</title>
+		<link rel="stylesheet" href="C:\Users\Ruiz\Desktop\DOCUMETOS EDWIN\PRGRAMACIÓN\HTML5 y CSS3\productosreset.css">
+		<link rel="stylesheet" href="Contactostyle.css">  
+
+	</head>
+	<body>
+		<header>
+			<div class="caja">
+				<h1><img style="width:20%; height: 200px; border-radius: 80px" src="C:\Users\Ruiz\Desktop\DOCUMETOS EDWIN\PRGRAMACIÓN\HTML5 y CSS3\floreria\LOGOF.jpeg" alt="logo de floreria"></h1>
+				<nav>
+
+				<ul>
+					<li><a href="C:\Users\Ruiz\Desktop\DOCUMETOS EDWIN\PRGRAMACIÓN\HTML5 y CSS3\index Floreria Gaby.html">Home</a></li>
+				
+					<li><a href="C:\Users\Ruiz\Desktop\DOCUMETOS EDWIN\PRGRAMACIÓN\HTML5 y CSS3\ProductosF.html">Productos</a></li>
+				
+					<li><a href="C:\Users\Ruiz\Desktop\DOCUMETOS EDWIN\PRGRAMACIÓN\HTML5 y CSS3\Contacto.html">Contacto</a></li>
+			</ul>
+
+			</nav>
+		</div>
+		</header>
+		<main>
+			<form>
+				<label for="nombreyapellido">Nombre y Apellido</label>
+				<input type="text" id="nombreyapellido" class="input-padron" required>
+				
+				<label for="correoelectronico">Correo electrónico</label>
+				<input type="email" id="correoelectronico" class="input-padron"  required placeholder="email@dominio.com">
+
+				<label for="telefono">Teléfono</label>
+				<input type="tel" id="telefono"class="input-padron"  required placeholder="(XX) XXXX XXXXX">
+
+				<label for="mensaje">Mensaje</label>
+				<textarea cols="70" rows="10" id="mensaje" class="input-padron" required>
+				</textarea>
+
+				<fieldset>
+				<p class="test" id="test">¿Cómo le gustaría que lo contactemos?</p>
+
+				<label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+				
+				<label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Telefono</label>
+				
+				<label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
+			</fieldset>
+				
+			<fieldset>
+
+				<p>¿En qué horario prefiere ser contactado?</p>
+				<select>
+					<option>Mañana</option>
+					<option>Tarde</option>
+					<option>Noche</option>
+				</select>
+		
+				</fieldset>
+				<label class="checkbox"> <input type="checkbox" checked>¿Le gustaría recibir novedades de la Florería Gaby? </label>
+
+				<input type="submit" value="Enviar formulario" class="enviar">
+			</form>
+
+			<table>
+				<thead>
+				<tr>
+					<th>Días</th>
+					<th>Horarios</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Lunes-Sábado</td>
+					<td>9am a 6pm</td>
+				</tr>
+			</tbody>
+
+			</table>
+		</main>
+
+
+		<footer>
+			<img style="width:20%; height: 120px; border-radius: 30px;" src="C:\Users\Ruiz\Desktop\DOCUMETOS EDWIN\PRGRAMACIÓN\HTML5 y CSS3\floreria\LOGOF.jpeg" alt="logo de floreria gaby">
+			<p class="copyright">&copy Copyright Florerías Gaby</p>
+		</footer>
+
+	</body>
+
+
+</html>
